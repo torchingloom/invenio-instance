@@ -1,0 +1,103 @@
+[submodule "vendor/invenio"]
+	path = vendor/invenio
+	url = git@github.com:torchingloom/invenio.git
+	branch = v3.4
+[submodule "vendor/invenio-admin"]
+	path = vendor/invenio-admin
+	url = git@github.com:torchingloom/invenio-admin.git
+[submodule "vendor/invenio-assets"]
+	path = vendor/invenio-assets
+	url = git@github.com:torchingloom/invenio-assets.git
+[submodule "vendor/invenio-formatter"]
+	path = vendor/invenio-formatter
+	url = git@github.com:torchingloom/invenio-formatter.git
+[submodule "vendor/invenio-logging"]
+	path = vendor/invenio-logging
+	url = git@github.com:torchingloom/invenio-logging.git
+[submodule "vendor/invenio-mail"]
+	path = vendor/invenio-mail
+	url = git@github.com:torchingloom/invenio-mail.git
+[submodule "vendor/invenio-theme"]
+	path = vendor/invenio-theme
+	url = git@github.com:torchingloom/invenio-theme.git
+[submodule "vendor/invenio-access"]
+	path = vendor/invenio-access
+	url = git@github.com:torchingloom/invenio-access.git
+[submodule "vendor/invenio-accounts"]
+	path = vendor/invenio-accounts
+	url = git@github.com:torchingloom/invenio-accounts.git
+[submodule "vendor/invenio-oauth2server"]
+	path = vendor/invenio-oauth2server
+	url = git@github.com:torchingloom/invenio-oauth2server.git
+[submodule "vendor/invenio-userprofiles"]
+	path = vendor/invenio-userprofiles
+	url = git@github.com:torchingloom/invenio-userprofiles.git
+[submodule "vendor/invenio-indexer"]
+	path = vendor/invenio-indexer
+	url = git@github.com:torchingloom/invenio-indexer.git
+[submodule "vendor/invenio-jsonschemas"]
+	path = vendor/invenio-jsonschemas
+	url = git@github.com:torchingloom/invenio-jsonschemas.git
+[submodule "vendor/invenio-oaiserver"]
+	path = vendor/invenio-oaiserver
+	url = git@github.com:torchingloom/invenio-oaiserver.git
+[submodule "vendor/invenio-pidstore"]
+	path = vendor/invenio-pidstore
+	url = git@github.com:torchingloom/invenio-pidstore.git
+[submodule "vendor/invenio-records-rest"]
+	path = vendor/invenio-records-rest
+	url = git@github.com:torchingloom/invenio-records-rest.git
+[submodule "vendor/invenio-records-ui"]
+	path = vendor/invenio-records-ui
+	url = git@github.com:torchingloom/invenio-records-ui.git
+[submodule "vendor/invenio-records"]
+	path = vendor/invenio-records
+	url = git@github.com:torchingloom/invenio-records.git
+[submodule "vendor/invenio-files-rest"]
+	path = vendor/invenio-files-rest
+	url = git@github.com:torchingloom/invenio-files-rest.git
+[submodule "vendor/invenio-iiif"]
+	path = vendor/invenio-iiif
+	url = git@github.com:torchingloom/invenio-iiif.git
+[submodule "vendor/invenio-previewer"]
+	path = vendor/invenio-previewer
+	url = git@github.com:torchingloom/invenio-previewer.git
+[submodule "vendor/invenio-records-files"]
+	path = vendor/invenio-records-files
+	url = git@github.com:torchingloom/invenio-records-files.git
+[submodule "vendor/invenio-db"]
+	path = vendor/invenio-db
+	url = git@github.com:torchingloom/invenio-db.git
+[submodule "vendor/invenio-search"]
+	path = vendor/invenio-search
+	url = git@github.com:torchingloom/invenio-search.git
+[submodule "vendor/pytest-invenio"]
+	path = vendor/pytest-invenio
+	url = git@github.com:torchingloom/pytest-invenio.git
+[submodule "vendor/invenio-base"]
+	path = vendor/invenio-base
+	url = git@github.com:torchingloom/invenio-base.git
+[submodule "vendor/invenio-cache"]
+	path = vendor/invenio-cache
+	url = git@github.com:torchingloom/invenio-cache.git
+[submodule "vendor/invenio-celery"]
+	path = vendor/invenio-celery
+	url = git@github.com:torchingloom/invenio-celery.git
+[submodule "vendor/invenio-config"]
+	path = vendor/invenio-config
+	url = git@github.com:torchingloom/invenio-config.git
+[submodule "vendor/invenio-i18n"]
+	path = vendor/invenio-i18n
+	url = git@github.com:torchingloom/invenio-i18n.git
+[submodule "vendor/invenio-app"]
+	path = vendor/invenio-app
+	url = git@github.com:torchingloom/invenio-app.git
+[submodule "vendor/invenio-rest"]
+	path = vendor/invenio-rest
+	url = git@github.com:torchingloom/invenio-rest.git
+[submodule "vendor/invenio-oauthclient"]
+	path = vendor/invenio-oauthclient
+	url = git@github.com:torchingloom/invenio-oauthclient.git
+[submodule "vendor/invenio-search-ui"]
+	path = vendor/invenio-search-ui
+	url = git@github.com:torchingloom/invenio-search-ui.git
