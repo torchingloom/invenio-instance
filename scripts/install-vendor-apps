@@ -1,0 +1,49 @@
+#!/usr/bin/python
+import os
+from collections import OrderedDict
+
+VENDOR_APPS_BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'vendor'))
+
+VENDOR_APPS = OrderedDict([
+    ['invenio', 'postgresql,elasticsearch7,docs'],
+    ['invenio-base', ''],
+    ['invenio-app', ''],
+    ['invenio-cache', ''],
+    ['invenio-celery', ''],
+    ['invenio-config', ''],
+    ['invenio-i18n', ''],
+    ['invenio-admin', ''],
+    ['invenio-assets', ''],
+    ['invenio-formatter', 'badges'],
+    ['invenio-logging', 'sentry-sdk'],
+    ['invenio-mail', 'celery,docs'],
+    ['invenio-rest', ''],
+    ['invenio-theme', ''],
+    ['invenio-access', ''],
+    ['invenio-accounts', ''],
+    ['invenio-oauth2server', ''],
+    ['invenio-oauthclientf', ''],
+    ['invenio-userprofiles', ''],
+    ['invenio-indexer', ''],
+    ['invenio-jsonschemas', ''],
+    ['invenio-oaiserver', ''],
+    ['invenio-pidstore', ''],
+    ['invenio-records-rest', 'citeproc,datacite,dublincore,jsonld'],
+    ['invenio-records-ui', ''],
+    ['invenio-records', ''],
+    ['invenio-search-ui', ''],
+    ['invenio-files-rest', ''],
+    ['invenio-iiif', ''],
+    ['invenio-previewer', ''],
+    ['invenio-records-files', ''],
+    ['invenio-db', ''],
+    ['invenio-search', ''],
+    ['pytest-invenio', ''],
+])
+
+for vendor_app, extra in VENDOR_APPS.items():
+    os.system('cd %s/%s; pip install -e ".%s"' % (
+        VENDOR_APPS_BASE_DIR,
+        vendor_app,
+        ('[%s]' % extra) if extra else ''
+    ))

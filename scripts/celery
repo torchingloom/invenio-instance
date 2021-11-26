@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+script_path=$(dirname "$0")
+
+export FLASK_ENV=development
+
+pipenv run celery -A invenio_app.celery worker -l INFO & pid_celery=$!
+
+trap 'kill $pid_celery &>/dev/null' EXIT
+
+wait $pid_celery

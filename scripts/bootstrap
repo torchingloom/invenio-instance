@@ -9,8 +9,6 @@
 set -e
 
 
-./scripts/install-vendor-app
-
 script_path=$(dirname "$0")
 pipfile_lock_path="$script_path/../Pipfile.lock"
 
@@ -24,6 +22,8 @@ pipenv sync --dev
 
 # Install application code and entrypoints from 'setup.py'
 pipenv run pip install -e $script_path/..
+
+./scripts/install-vendor-apps
 
 # Ensure assets are symlinked by default
 export FLASK_ENV=development
