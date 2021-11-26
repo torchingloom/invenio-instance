@@ -117,7 +117,7 @@ CELERY_BEAT_SCHEDULE = {
 # ========
 #: Database URI including user and password
 SQLALCHEMY_DATABASE_URI = \
-    'postgresql+psycopg2://rsl:rsl@localhost/rsl'
+    'postgresql+psycopg2://postgres:123@localhost/rsl-invenio'
 
 # JSONSchemas
 # ===========
