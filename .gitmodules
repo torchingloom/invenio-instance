@@ -1,7 +1,6 @@
 [submodule "vendor/invenio"]
 	path = vendor/invenio
 	url = git@github.com:torchingloom/invenio.git
-	branch = v3.4
 [submodule "vendor/invenio-admin"]
 	path = vendor/invenio-admin
 	url = git@github.com:torchingloom/invenio-admin.git
