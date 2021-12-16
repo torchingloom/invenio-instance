@@ -116,8 +116,7 @@ CELERY_BEAT_SCHEDULE = {
 # Database
 # ========
 #: Database URI including user and password
-SQLALCHEMY_DATABASE_URI = \
-    'postgresql+psycopg2://postgres:123@localhost/rsl-invenio'
+SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:123@localhost/rsl-invenio'
 
 # JSONSchemas
 # ===========
@@ -131,7 +130,7 @@ JSONSCHEMAS_HOST = 'rsl.com'
 
 #: Secret key - each installation (dev, production, ...) needs a separate key.
 #: It should be changed before deploying.
-SECRET_KEY = 'CHANGE_ME'
+SECRET_KEY = 'asdasdqwe90qwe90;qwe;;2e&as;ldsal;dlasdnmasd'
 #: Max upload size for form data via application/mulitpart-formdata.
 MAX_CONTENT_LENGTH = 100 * 1024 * 1024  # 100 MiB
 #: Sets cookie with the secure flag by default
@@ -140,7 +139,7 @@ SESSION_COOKIE_SECURE = True
 #: provided, the allowed hosts variable is set to localhost. In production it
 #: should be set to the correct host and it is strongly recommended to only
 #: route correct hosts to the application.
-APP_ALLOWED_HOSTS = ['rsl.com', 'localhost', '127.0.0.1', '*']
+APP_ALLOWED_HOSTS = ['rsl.com', 'localhost', 'local.invenio', '127.0.0.1', '*']
 
 # OAI-PMH
 # =======
@@ -168,3 +167,6 @@ APP_DEFAULT_SECURE_HEADERS['content_security_policy'] = {
     'style-src': ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
     'font-src': ["'self'", "data:", "https://fonts.gstatic.com"],
 }
+
+
+WTF_CSRF_ENABLED = False

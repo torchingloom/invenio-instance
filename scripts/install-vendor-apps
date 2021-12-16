@@ -22,7 +22,7 @@ VENDOR_APPS = OrderedDict([
     ['invenio-access', ''],
     ['invenio-accounts', ''],
     ['invenio-oauth2server', ''],
-    ['invenio-oauthclientf', ''],
+    ['invenio-oauthclient', ''],
     ['invenio-userprofiles', ''],
     ['invenio-indexer', ''],
     ['invenio-jsonschemas', ''],
@@ -38,6 +38,13 @@ VENDOR_APPS = OrderedDict([
     ['invenio-records-files', ''],
     ['invenio-db', ''],
     ['invenio-search', ''],
+    ['invenio-marc21', ''],
+    ['invenio-app-rdm', ''],
+    ['invenio-records-resources', ''],
+    ['invenio-records-permissions', ''],
+    ['invenio-rdm-records', ''],
+    ['invenio-drafts-resources', ''],
+    ['invenio-vocabularies', ''],
     ['pytest-invenio', ''],
 ])
 

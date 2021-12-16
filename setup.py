@@ -36,11 +36,9 @@ setup(
     include_package_data=True,
     platforms='any',
     entry_points={
-        'console_scripts': [
-            'rsl = invenio_app.cli:cli',
-        ],
         'invenio_base.apps': [
             'rsl_records = rsl.records:rsl',
+            'invenio_marc21 = invenio_marc21:InvenioMARC21',
         ],
         'invenio_base.blueprints': [
             'rsl = rsl.theme.views:blueprint',
@@ -55,15 +53,18 @@ setup(
         ],
         'invenio_i18n.translations': [
             'messages = rsl',
+            'messages = invenio_marc21',
         ],
         'invenio_base.api_apps': [
             'rsl = rsl.records:rsl',
          ],
         'invenio_jsonschemas.schemas': [
-            'rsl = rsl.records.jsonschemas'
+            'rsl = rsl.records.jsonschemas',
+            'marc21 = dojson.contrib.marc21.schemas',
         ],
         'invenio_search.mappings': [
-            'records = rsl.records.mappings'
+            'records = rsl.records.mappings',
+            'marc21 = invenio_marc21.mappings',
         ],
     },
     classifiers=[

@@ -11,6 +11,7 @@ from invenio_files_rest.signals import file_deleted, file_uploaded
 from invenio_indexer.signals import before_record_index
 
 from . import config, indexer
+from .cli import rsl as rsl_cmd
 from .tasks import update_record_files_async
 
 
@@ -26,6 +27,8 @@ class rsl(object):
         """Flask application initialization."""
         self.init_config(app)
         app.extensions['rsl'] = self
+        if hasattr(app, 'cli'):
+            app.cli.add_command(rsl_cmd)
         self._register_signals(app)
 
     def init_config(self, app):

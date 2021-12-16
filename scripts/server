@@ -7,8 +7,8 @@ export FLASK_ENV=development
 
 
 pipenv run invenio run \
-       --cert "$script_path"/../docker/nginx/test.crt \
-       --key "$script_path"/../docker/nginx/test.key & pid_server=$!
+       --cert "$script_path"/../docker/nginx/cert/test.crt \
+       --key "$script_path"/../docker/nginx/cert/test.key & pid_server=$!
 
 trap 'kill $pid_server &>/dev/null' EXIT
 

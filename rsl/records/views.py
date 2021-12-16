@@ -27,6 +27,9 @@ this file.
 """
 
 
+@blueprint.route('/asd')
+def asd():
+    return 'Hello from Example application.'
 #
 # Files related template filters.
 #

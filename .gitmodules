@@ -100,3 +100,24 @@
 [submodule "vendor/invenio-search-ui"]
 	path = vendor/invenio-search-ui
 	url = git@github.com:torchingloom/invenio-search-ui.git
+[submodule "vendor/invenio-marc21"]
+	path = vendor/invenio-marc21
+	url = git@github.com:torchingloom/invenio-marc21.git
+[submodule "vendor/invenio-app-rdm"]
+	path = vendor/invenio-app-rdm
+	url = git@github.com:torchingloom/invenio-app-rdm.git
+[submodule "vendor/invenio-rdm-records"]
+	path = vendor/invenio-rdm-records
+	url = git@github.com:torchingloom/invenio-rdm-records.git
+[submodule "vendor/invenio-drafts-resources"]
+	path = vendor/invenio-drafts-resources
+	url = git@github.com:torchingloom/invenio-drafts-resources.git
+[submodule "vendor/invenio-vocabularies"]
+	path = vendor/invenio-vocabularies
+	url = git@github.com:torchingloom/invenio-vocabularies.git
+[submodule "vendor/invenio-records-resources"]
+	path = vendor/invenio-records-resources
+	url = git@github.com:torchingloom/invenio-records-resources.git
+[submodule "vendor/invenio-records-permissions"]
+	path = vendor/invenio-records-permissions
+	url = git@github.com:torchingloom/invenio-records-permissions.git

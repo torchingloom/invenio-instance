@@ -1,0 +1,44 @@
+# Translations template for rsl.
+# Copyright (C) 2021 RSL
+# This file is distributed under the same license as the rsl project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rsl 0.1.0\n"
+"Report-Msgid-Bugs-To: atlantij@gmail.com\n"
+"POT-Creation-Date: 2021-12-09 14:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: rsl/config.py:41
+msgid "Русский"
+msgstr ""
+
+#: rsl/config.py:62 rsl/config.py:66
+msgid "rsl"
+msgstr ""
+
+#: rsl/config.py:87
+msgid "Welcome to rsl!"
+msgstr ""
+
+#: rsl/records/config.py:111
+msgid "Best match"
+msgstr ""
+
+#: rsl/records/config.py:117
+msgid "Most recent"
+msgstr ""
+
+#: rsl/records/templates/bootstrap3/records/record.html:48
+#: rsl/records/templates/semantic-ui/records/record.html:47
+msgid "Preview"
+msgstr ""
+
